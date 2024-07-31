@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+
+    <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" required> <br><br>
+
+        <label for="D.O.B">Date of birth:</label>
+        <input type="date" name="D.O.B" id="D.O.B" required>
+
+        <h3>Gender:</h3>
+        <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label><br><br>
+        
+        <label for="number">Phone:</label>
+        <input type="number" id="number" name="number" value="number">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <br><br><br>
+
+        <h2>Address</h2>
+        <input type="text" id="Address" name="Address" placeholder="Street Address"><label for="Address"></label><br><br>
+        <input type="text" id="Address" name="Address" placeholder="Street Address Line2"><label for="Address"></label><br><br>
+        <input type="text" id="city" name="city" placeholder="City"><label for="city"></label>
+        <input type="text" id="state" name="state" placeholder="State"><label for="state"></label><br><br>
+        <input type="text" id="zipcode" name="zipcode" placeholder="Postal/Zip Code"><label for="zipcode"></label>
+        <select name="country" id="country">
+            <option value="" selected>--Choose--</option>
+            <option value="united kingdom">United Kingdom</option>
+            <option value="united kingdom">Nigeria</option>
+        </select><br><br>
+
+        <h4>Level of Education:</h4>
+        <input type="checkbox" name="education level" id="college"><label for="college">College</label>
+        <input type="checkbox" name="education level" id="bachelor's degree"><label for="bachelor's degree">Bachelor's degree</label>
+        <input type="checkbox" name="education level" id="master's degree"><label for="master's degree">Master's degree</label><br><br>
+
+        <label for="comments">Anything else worth noting about you.</label><br>
+        <textarea name="comments" id="comments" cols="50" rows="10"></textarea><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <label for="confirm password">Confirm Password:</label>
+        <input type="password" id="confirm password" name="password"><br><br>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+</body>
+
+</html>
